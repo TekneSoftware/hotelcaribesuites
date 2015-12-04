@@ -8,7 +8,7 @@
 	<meta name="title" content="Hotel Caribe Suites Barquisimeto" />
 	<meta name="description" content="Servicio de alojamiento y confort para parejas, viajeros y visitantes."/>
 	<meta name="keywords" content="Hotel Barquisimeto, Hotel Cabudare, Motel Barquisimeto, Motel Cabudare, Motel Parejas, Hotel Venezuela, Motel Venezuela, Hotel Caribe, Motel Caribe, Motel Viajero, Motel Parejas" />
-	<meta name="copyright" content="Copyright 2015 Decktra" />
+	<meta name="copyright" content="Copyright 2015 Tekne" />
 	<title>Caribe Suites | Barquisimeto</title>
 	
 	<!-- core CSS -->
