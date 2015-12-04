@@ -1,0 +1,21 @@
+{
+  "name": "decktra/decktra-mailer",
+  "description": "Simple form mailer",
+  "require": {
+    "php": ">=5.3.0",
+    "phpmailer/phpmailer": "~5.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jean",
+      "email": "jperez@decktra.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "Config",
+      "Core"
+    ]
+  }
+}

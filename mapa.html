@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Caribe Suites | Barquisimeto</title>
+	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+     <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css" media="screen" />
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body class="homepage">
+
+
+
+    <!--VENUS-->
+
+    <div id="suites" >
+        <div class="container">
+           <div class="center wow fadeInDown">
+                <h2>Caribe Suites</h2>
+               
+            </div>
+
+            <div class="row">
+                <div class="features">
+                 
+
+                    <div class="col-md-8 col-sm-8">
+                        <div class="flexslider">
+                          <ul class="slides">
+                            <li data-thumb="images/portfolio/recent/item9.png">
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31431.99231914896!2d-69.234672!3d10.016937!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f4948bcfa9ac905!2sCaribe+Suites!5e0!3m2!1ses!2sus!4v1423668784954" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                            </li>
+                            <li data-thumb="images/portfolio/fachada1.jpg">
+                              <img src="images/portfolio/fachada1.jpg" />
+                            </li>
+                               <li data-thumb="images/portfolio/fachada2.jpg">
+                              <img src="images/portfolio/fachada2.jpg" />
+                            </li>  
+                             <li data-thumb="images/portfolio/fachada3.jpg">
+                              <img src="images/portfolio/fachada3.jpg" />
+                            </li>
+                               <li data-thumb="images/portfolio/fachada4.jpg">
+                              <img src="images/portfolio/fachada4.jpg" />
+                            </li>
+                            
+                          </ul>
+                        </div>
+                    </div><!--/.col-md-6-->
+
+                     <div class="col-md-4 col-sm-4">
+                        <div class="feature-wrap">
+                            
+                            <h2>Dirección</h2>
+                            <h3>Av. Intercomunal Bto-Acarigua</h3>
+
+                            <h2>Teléfono</h2>
+                            <h3>(0251)262.25.94</h3>
+
+                            <h2>Email</h2>
+                            <h3>info@domain.com</h3>
+
+                           
+
+
+
+
+                        </div>
+                    </div><!--/.col-md-6-->
+                
+          
+                </div>
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </div><!--/#feature-->
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="flexslider/jquery.flexslider.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+    </script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+                e.preventDefault();
+                $(this).siblings('a.active').removeClass("active");
+                $(this).addClass("active");
+                var index = $(this).index();
+                $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+                $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+            });
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: "thumbnails"
+          });
+        });
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+</html>
